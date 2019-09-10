@@ -208,7 +208,7 @@ const validarSelect = function(){
 		erro = true;
 		erroSelect.innerText = "Motivo inválido!";
 	}
-
+}
 const validacao = function(){
 	if(nome.value == 0){
 		erro = true;
@@ -271,8 +271,6 @@ const validacao = function(){
 	}else{
 		erro = true;
 		erroSelect.innerText = "Motivo inválido!";
+		}
 	}
-
-}
-
 
