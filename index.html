@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<link rel="stylesheet" href="style.css"/>
+	<div>
+	<form id ="form" action="index2.html">
+			<h1>Solicitação Passaporte</h1>
+			<label>Nome: </label><input type="text" placeholder=" Nome Completo" id="nome" onblur="validarNome(this.value);"><br>
+			<span id="erroNome"></span><br>
+			<label>Endereço: </label><input type="text" placeholder=" Rua A" id="endereco" onblur="validarEndereco(this.value);"><br>
+			<span id="erroEndereco"></span><br>
+			<label>Cidade: </label> <input type="text" placeholder=" Cidade" id="cidade" onblur="validarCidade(this.value);"><br>
+			<span id="erroCidade"></span><br>
+			<label>Estado: </label> <input type="text" placeholder=" CE" id="estado" onblur="validarEstado(this.value);"><br>
+			<span id="erroEstado"></span><br>
+			<label>Telefone: </label> <input type="tel" placeholder=" (99)9999-8888" id="telefone" onblur="validarTel(this.value);"><br>
+			<span id="erroTel"></span><br>
+			<label>Celular: </label><input type="tel" placeholder=" (99)9999-8888" id="celular" onblur="validarCel(this.value);"><br>
+			<span id="erroCel"></span><br>
+			<label>Email: </label> <input type="text" placeholder=" nome@gmail.com" id="email" onblur="validarEmail(this.value);"><br>
+			<span id="erroEmail"></span><br>
+			<label>Profissão: </label> <input type="text" placeholder=" Estudante" id="profissao" onblur="validarProfi(this.value);"><br>
+			<span id="erroProfissao"></span><br>
+			<label>Motivo da Solicitação: </label>
+			<select id="select" onblur="validarSelect(this.value);">
+				<option>---</option>
+				<option>Trabalho</option>
+				<option>Turismo</option>
+				<option>Estudo</option>
+				<option>Sair do País</option>
+			</select><br>
+			<span id="erroSelect"></span>
+			<br><br>
+		<label>RG: </label> <input type="text" placeholder=" 00000000" id="identidade" onblur="validarRg(this.value);"><br>
+		<span id="erroRg"></span><br>
+		<label>CNH: </label> <input type="text" placeholder=" CNH" id="cnh" onblur="validarCnh(this.value);"><br>
+		<span id="erroCnh"></span><br>
+		<label>CPF: </label> <input type="text" placeholder=" 000.000.000-00" id="cpf" onblur="validarCpf(this.value);"><br>
+		<span id="erroCpf"></span><br>
+		<label>Título Eleitor:</label> <input type="text" placeholder=" 0000 00000 00000" id="titulo" onblur="validarTitulo(this.value);"><br>
+		<span id="erroTitulo"></span><br>
+		<label>Passaporte Antigo? </label>
+		<input type="radio" name="opcao" value="sim" id="passa" onclick="validarPassaporte(this.value);">SIM
+		<input type="radio" name="opcao" value="nao" id="passa" onclick="validarPassaporte(this.value);">NÃO<br><br>
+		<div id="clasdiv">
+			<label>Nº Passaporte: </label> <input type="text" placeholder=" AA99999" id="passaporte" onblur="validarPassa(this.value);"></span><br>
+			<span id="erroPassa"></span>
+		</div>
+		<button id="enviar" onclick="validacao();">Gerar Passaporte</button><br><br>
+		<span id="erroBotao"></span>
+	</form>
+</div>
+
+	<script src="js/vendor/MaskJS.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

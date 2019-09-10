@@ -1,0 +1,43 @@
+h1{
+	font-family: fantasy;
+	 
+}
+div{
+	text-align: center;
+}
+
+body{
+	background-color: rgb(46, 105, 206);
+}
+span{
+
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+}
+input{
+	white-space: nowrap;
+	border-radius: 5px;
+	margin-bottom: 7px;
+}
+label{
+	font-family: 'Courier New', Courier, monospace;
+	white-space: nowrap;
+	font-weight: 700;
+}
+form{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+button{
+	background-color: rgb(93, 146, 40);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+#clasdiv{
+	display: none;
+}
+

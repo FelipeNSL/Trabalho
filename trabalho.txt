@@ -1,0 +1,28 @@
+Trabalho pweb2
+
+1- crie um formulário para solicitação de passaportes com os seguintes dados.
+
+-> nome completo(Apenas letras pelo menos 10 caracteres);
+->Endereço (Alfanumérico);
+->Cidade (Apenas Letras);
+-->UF (2letras);
+->Telefone Residencial ((99)9999-9999);
+->celular ((99)9-9999-9999);
+->Email (exemplo@site.com);
+->Profissão (letras);
+->Motivo da solicitação
+	criar um select com 3 opções
+	1 - trabalho
+	2 - Turismo
+	3 - Estudo
+	4 - Sair do pais
+
+Não admitir valores diferentes destes.
+
+->RG (Apenas números pelo menos 6 digitos);
+->CNH (99999999999);
+->CPF(999.999.999-99);
+->tituo de eleitor (9999 9999 9999)
+->tem passaporte antigo?
+	radio - com sim ou não
+->numero do passaporte (AA999999) 
